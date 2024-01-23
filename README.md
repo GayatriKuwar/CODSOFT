@@ -1,2 +1,0 @@
-# CODSOFT
-To upload tasks
