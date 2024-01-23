@@ -30,12 +30,12 @@ int main() {
                 result = num1 / num2;
             } else {
                 std::cout << "Error! Division by zero.\n";
-                return 1; // Exit with an error code
+                return 1; 
             }
             break;
         default:
             std::cout << "Invalid operation.\n";
-            return 1; // Exit with an error code
+            return 1; 
     }
 
     std::cout << "Result: " << result << "\n";
