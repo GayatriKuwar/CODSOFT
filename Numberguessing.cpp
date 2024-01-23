@@ -3,10 +3,8 @@
 #include <ctime>
 
 int main() {
-    // Seed for random number generation
     std::srand(static_cast<unsigned int>(std::time(nullptr)));
 
-    // Generate a random number between 1 and 100
     int secretNumber = std::rand() % 100 + 1;
 
     int guess;
